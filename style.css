@@ -122,14 +122,14 @@ body{
 }
 
 
-.attribution { 
+/* .attribution { 
     font-size: 11px; 
     text-align: center; 
     margin-top: 2rem;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
-}
+} */
 
 @media only screen and (max-width: 1024px){
     .container{
@@ -150,6 +150,7 @@ body{
 
 @media only screen and (max-width: 768px) {
     .container{
+        margin: 2rem 0;
         grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
         grid-template-rows: minmax(auto, auto);
     }
